@@ -85,6 +85,14 @@ p {
 background: #08ccdd;
 color: #fff;
 }
+#four p{
+    font-size: 35px;
+        font-family: 'Patua One', cursive;
+        text-align: center;
+}
+.usalo-para{
+    border:2px dotted #fff;
+}
 #last{
     background: #fff;
 }
