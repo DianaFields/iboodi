@@ -68,7 +68,7 @@ p {
 }
 
 .bg-primary {
-    background-color:#ECC418;
+    background-color:#7e2e81;
 }
 
 .bg-dark {
@@ -82,14 +82,14 @@ p {
     background: #fff;
 }
 #four{
-background: #fff;
-color: #08ccdd;
+background: #08ccdd;
+color: #fff;
 }
 #last{
     background: #fff;
 }
 #last h2{
-    color: #fff;
+    color: #000;
 }
 #last p{
     color: #000;
@@ -210,6 +210,12 @@ footer {
 .pack3 img{
     width: 75%;
 }
+.pack4 img{
+    width: 75%;
+}
+.pack5 img{
+    width: 75%;
+}
 .pack{
     top: 55%; 
     left: 40%; 
@@ -221,6 +227,17 @@ footer {
 .pack3{
     top: 54%; 
     left: 50%; 
+}
+
+.pack4{
+    top: 51%;
+    left: 25%;
+    
+}
+.pack5{
+    top: 51%;
+    right: 25%;
+
 }
 
 .girl{
@@ -236,12 +253,12 @@ footer {
     margin: 0 auto;
 }
 .logo-slide img{
-    width: 90%;
+    width: 100%;
 }
 @media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
-        background-color: transparent;
+        background-color: rgba(0,0,0,.2);
         min-height: 60px;
     }
 
@@ -359,13 +376,8 @@ footer {
     
     header {
         min-height: 100%;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7e811+1,fc4300+100 */
-background: #f7e811; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #f7e811 1%, #fc4300 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  #f7e811 1%,#fc4300 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  #f7e811 1%,#fc4300 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e811', endColorstr='#fc4300',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+background: url('../assets/mosaic.jpg');
+background-size:130%;
     }
 
     header .header-content {
@@ -560,9 +572,8 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn.btn-primary {
-    background-color: transparent;
-    border:1px solid #f0f0f0;
-    border-color:#f0f0f0;
+    color: #fff;
+    background-color:#08ccdd;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
