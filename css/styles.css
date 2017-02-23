@@ -75,11 +75,23 @@ p {
     color: #eee;
     background-color: #e54b79;
 }
+.bg-dark  img{
+    width: 100%;
+}
 #first{
     position: relative;
 }
 #two{
     background: #fff;
+}
+#two-second{
+    background: #333;
+}
+#two img{
+    width: 90%;
+}
+#two-second img{
+    width: 90%;
 }
 #four{
 background: #08ccdd;
@@ -197,56 +209,25 @@ footer {
     background-color: transparent;
 }
 
-.child{
+
+
+
+.logo-slide{
+    width: 25%;
+    margin: 0 auto;
+}
+.logo-slide img{
+    width: 100%;
+}
+    .child{
     display: inline-block;
     position: absolute;
-    width: 15%
+    width: 25%
 }
 .child img{
     width: 100%;
 }
-.pck{
-    width: 20%;
-    position: absolute;
-}
-.pack img{
-    width: 100%;
-}
-.pack2 img{
-    width: 75%;
-}
-.pack3 img{
-    width: 75%;
-}
-.pack4 img{
-    width: 75%;
-}
-.pack5 img{
-    width: 75%;
-}
-.pack{
-    top: 55%; 
-    left: 40%; 
-}
-.pack2{
-    top: 54%; 
-    left: 30%; 
-}
-.pack3{
-    top: 54%; 
-    left: 50%; 
-}
-
-.pack4{
-    top: 51%;
-    left: 25%;
-    
-}
-.pack5{
-    top: 51%;
-    right: 25%;
-
-}
+@media(min-width:768px) {
 
 .girl{
     left: 15%;
@@ -256,14 +237,14 @@ footer {
     right: 15%;
     top: 13%;
 }
-.logo-slide{
-    width: 20%;
-    margin: 0 auto;
+    .child{
+    display: inline-block;
+    position: absolute;
+    width: 15%
 }
-.logo-slide img{
+.child img{
     width: 100%;
 }
-@media(min-width:768px) {
     .navbar-default {
         border-color: transparent;
         background-color: rgba(0,0,0,.2);
@@ -328,8 +309,6 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-color: #c9c9c9;
-    background: url('../assets/slider-1.jpg')no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -343,6 +322,9 @@ header .header-content {
     padding: 100px 15px;
     text-align: center;
     z-index: 2;
+        min-height: 100%;
+    background: url(../assets/mosaic.jpg);
+    background-size: 130%;
 }
 
 header .header-content .inner h1 {
@@ -390,7 +372,7 @@ background-size:130%;
 
     header .header-content {
         position: absolute;
-        top: 35%;
+        top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -401,10 +383,12 @@ background-size:130%;
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
+            padding-top: 15%;
     }
 
     header .header-content .inner h1 {
-        font-size: 70px;
+        font-size: 60px;
+        margin-top: 4%;
     }
 
     header .header-content .inner p {
