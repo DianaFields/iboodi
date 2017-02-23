@@ -91,7 +91,7 @@ color: #fff;
         text-align: center;
 }
 .usalo-para{
-    border:2px dotted #fff;
+    border-bottom:2px dotted #fff;
 }
 #last{
     background: #fff;
